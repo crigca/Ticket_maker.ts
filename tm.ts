@@ -28,7 +28,7 @@ function addProduct(): void { //Funcion para agregar productos.
   console.log("Producto añadido correctamente.");
   count += 1;
 }
-function clean(){
+function clean(){  //funcion para limpiar pantalla.
     for (let i:number=0;i<20;i++){
         console.log("");
     }
